@@ -1,0 +1,181 @@
+2018-08-09 15:16:41 | INFO  | Controller.java:68 | try initialize start properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:16:41 | INFO  | Controller.java:73 | load vkId properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:16:41 | INFO  | Controller.java:76 | load token properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:16:41 | INFO  | Controller.java:79 | load idApp properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:16:41 | INFO  | Controller.java:82 | load serviceKey properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:16:41 | INFO  | Controller.java:85 | load all properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:16:41 | INFO  | Controller.java:240 | set on close operation
+2018-08-09 15:21:14 | INFO  | Controller.java:136 | Start button click
+2018-08-09 15:21:14 | INFO  | Controller.java:218 | try parse userId from: https://vk.com/id230709417 with service token = c92172a3c92172a3c92172a3c9c97ff842cc921c92172a3926ac06e55dda55a37148c06
+2018-08-09 15:21:15 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/users.get		617
+2018-08-09 15:21:15 | ERROR | ApiRequest.java:94 | API error
+com.vk.api.sdk.exceptions.ApiException: Unknown (28): Application authorization failed: access_token has expired.
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:271) ~[sdk-0.5.12.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:92) ~[sdk-0.5.12.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:67) ~[sdk-0.5.12.jar:?]
+	at ru.vanishBot.Controller.parseId(Controller.java:227) ~[classes/:?]
+	at ru.vanishBot.Controller.startAction(Controller.java:138) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[?:1.8.0_144]
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275) ~[?:1.8.0_144]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769) ~[jfxrt.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[jfxrt.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8413) ~[jfxrt.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:185) ~[jfxrt.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:182) ~[jfxrt.jar:?]
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:96) ~[jfxrt.jar:?]
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:89) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3757) ~[jfxrt.jar:?]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:?]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:381) ~[jfxrt.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:417) ~[jfxrt.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:416) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+2018-08-09 15:21:15 | INFO  | Controller.java:234 | Error in userId
+com.vk.api.sdk.exceptions.ApiException: Unknown (28): Application authorization failed: access_token has expired.
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:271) ~[sdk-0.5.12.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:92) ~[sdk-0.5.12.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:67) ~[sdk-0.5.12.jar:?]
+	at ru.vanishBot.Controller.parseId(Controller.java:227) ~[classes/:?]
+	at ru.vanishBot.Controller.startAction(Controller.java:138) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[?:1.8.0_144]
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275) ~[?:1.8.0_144]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769) ~[jfxrt.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[jfxrt.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8413) ~[jfxrt.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:185) ~[jfxrt.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:182) ~[jfxrt.jar:?]
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:96) ~[jfxrt.jar:?]
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:89) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3757) ~[jfxrt.jar:?]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:?]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:381) ~[jfxrt.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:417) ~[jfxrt.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:416) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+2018-08-09 15:21:15 | INFO  | Controller.java:254 | add error alert with text: vk id must be "https://vk.com/(id or nickName)"
+2018-08-09 15:21:41 | INFO  | Controller.java:68 | try initialize start properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:21:41 | INFO  | Controller.java:73 | load vkId properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:21:41 | INFO  | Controller.java:76 | load token properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:21:41 | INFO  | Controller.java:79 | load idApp properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:21:41 | INFO  | Controller.java:82 | load serviceKey properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:21:41 | INFO  | Controller.java:85 | load all properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-09 15:21:41 | INFO  | Controller.java:240 | set on close operation
+2018-08-09 15:21:52 | INFO  | Controller.java:136 | Start button click
+2018-08-09 15:21:52 | INFO  | Controller.java:218 | try parse userId from: https://vk.com/m.golovleva with service token = ab021806ab021806ab021806a2ab6768c5aab02ab021806f06222af58b9a4ff56b2ee9f
+2018-08-09 15:21:52 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/users.get		224
+2018-08-09 15:21:52 | INFO  | Controller.java:228 | get userId = 30234771
+2018-08-09 15:21:52 | INFO  | Controller.java:190 | try get token from string: https://oauth.vk.com/blank.html#access_token=5f14e9c96a7a99b90226632cbb91744f49a90f48e0b838d9267ccf9becd11a6a7875d37e330f7e6ecfb06&expires_in=0&user_id=30234771&state=123456
+2018-08-09 15:21:52 | INFO  | Controller.java:199 | try validate token: 5f14e9c96a7a99b90226632cbb91744f49a90f48e0b838d9267ccf9becd11a6a7875d37e330f7e6ecfb06 and userId: 30234771
+2018-08-09 15:21:52 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		79
+2018-08-09 15:21:52 | INFO  | Controller.java:204 | token fine
+2018-08-09 15:21:52 | INFO  | CleanManager.java:49 | Cleaning is starting
+2018-08-09 15:21:52 | INFO  | CleanManager.java:52 | Cleaning the wall
+2018-08-09 15:21:52 | INFO  | CleanManager.java:55 | Getting wall's posts from 0 to 100
+2018-08-09 15:21:52 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		58
+2018-08-09 15:21:53 | INFO  | CleanManager.java:55 | Getting wall's posts from 100 to 200
+2018-08-09 15:21:53 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		45
+2018-08-09 15:21:53 | INFO  | CleanManager.java:55 | Getting wall's posts from 200 to 300
+2018-08-09 15:21:53 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		42
+2018-08-09 15:21:53 | INFO  | CleanManager.java:55 | Getting wall's posts from 300 to 400
+2018-08-09 15:21:53 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		45
+2018-08-09 15:21:54 | INFO  | CleanManager.java:55 | Getting wall's posts from 400 to 500
+2018-08-09 15:21:54 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		63
+2018-08-09 15:21:54 | INFO  | CleanManager.java:55 | Getting wall's posts from 500 to 600
+2018-08-09 15:21:54 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		37
+2018-08-09 15:21:55 | INFO  | CleanManager.java:55 | Getting wall's posts from 600 to 700
+2018-08-09 15:21:55 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		38
+2018-08-09 15:21:55 | INFO  | CleanManager.java:55 | Getting wall's posts from 700 to 800
+2018-08-09 15:21:55 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		38
+2018-08-09 15:21:55 | INFO  | CleanManager.java:55 | Getting wall's posts from 800 to 900
+2018-08-09 15:21:55 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		41
+2018-08-09 15:21:56 | INFO  | CleanManager.java:55 | Getting wall's posts from 900 to 1000
+2018-08-09 15:21:56 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		58
+2018-08-09 15:21:56 | INFO  | CleanManager.java:72 | The wall was cleaned
+2018-08-09 15:21:56 | INFO  | CleanManager.java:119 | CleaningManager end
+2018-08-09 15:21:56 | INFO  | Controller.java:264 | alert with sucsses clean

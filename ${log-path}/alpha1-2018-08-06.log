@@ -1,0 +1,40 @@
+2018-08-06 17:43:51 | INFO  | Controller.java:68 | try initialize start properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-06 17:43:51 | INFO  | Controller.java:73 | load vkId properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-06 17:43:51 | INFO  | Controller.java:76 | load token properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-06 17:43:51 | INFO  | Controller.java:79 | load idApp properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-06 17:43:51 | INFO  | Controller.java:82 | load serviceKey properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-06 17:43:51 | INFO  | Controller.java:85 | load all properties from file: C:\Users\mkach_000\vanish\property.properties
+2018-08-06 17:43:51 | INFO  | Controller.java:240 | set on close operation
+2018-08-06 17:43:55 | INFO  | Controller.java:136 | Start button click
+2018-08-06 17:43:55 | INFO  | Controller.java:218 | try parse userId from: https://vk.com/m.golovleva with service token = ab021806ab021806ab021806a2ab6768c5aab02ab021806f06222af58b9a4ff56b2ee9f
+2018-08-06 17:43:57 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/users.get		1368
+2018-08-06 17:43:57 | INFO  | Controller.java:228 | get userId = 30234771
+2018-08-06 17:43:57 | INFO  | Controller.java:190 | try get token from string: https://oauth.vk.com/blank.html#access_token=5f14e9c96a7a99b90226632cbb91744f49a90f48e0b838d9267ccf9becd11a6a7875d37e330f7e6ecfb06&expires_in=0&user_id=30234771&state=123456
+2018-08-06 17:43:57 | INFO  | Controller.java:199 | try validate token: 5f14e9c96a7a99b90226632cbb91744f49a90f48e0b838d9267ccf9becd11a6a7875d37e330f7e6ecfb06 and userId: 30234771
+2018-08-06 17:43:57 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		74
+2018-08-06 17:43:57 | INFO  | Controller.java:204 | token fine
+2018-08-06 17:43:57 | INFO  | CleanManager.java:49 | Cleaning is starting
+2018-08-06 17:43:57 | INFO  | CleanManager.java:52 | Cleaning the wall
+2018-08-06 17:43:57 | INFO  | CleanManager.java:55 | Getting wall's posts from 0 to 100
+2018-08-06 17:43:57 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		57
+2018-08-06 17:43:58 | INFO  | CleanManager.java:55 | Getting wall's posts from 100 to 200
+2018-08-06 17:43:58 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		38
+2018-08-06 17:43:58 | INFO  | CleanManager.java:55 | Getting wall's posts from 200 to 300
+2018-08-06 17:43:58 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		33
+2018-08-06 17:43:58 | INFO  | CleanManager.java:55 | Getting wall's posts from 300 to 400
+2018-08-06 17:43:58 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		31
+2018-08-06 17:43:59 | INFO  | CleanManager.java:55 | Getting wall's posts from 400 to 500
+2018-08-06 17:43:59 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		42
+2018-08-06 17:43:59 | INFO  | CleanManager.java:55 | Getting wall's posts from 500 to 600
+2018-08-06 17:43:59 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		33
+2018-08-06 17:43:59 | INFO  | CleanManager.java:55 | Getting wall's posts from 600 to 700
+2018-08-06 17:43:59 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		30
+2018-08-06 17:44:00 | INFO  | CleanManager.java:55 | Getting wall's posts from 700 to 800
+2018-08-06 17:44:00 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		35
+2018-08-06 17:44:00 | INFO  | CleanManager.java:55 | Getting wall's posts from 800 to 900
+2018-08-06 17:44:00 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		43
+2018-08-06 17:44:01 | INFO  | CleanManager.java:55 | Getting wall's posts from 900 to 1000
+2018-08-06 17:44:01 | INFO  | HttpTransportClient.java:208 | Request: https://api.vk.com/method/wall.get		28
+2018-08-06 17:44:01 | INFO  | CleanManager.java:72 | The wall was cleaned
+2018-08-06 17:44:01 | INFO  | CleanManager.java:119 | CleaningManager end
+2018-08-06 17:44:01 | INFO  | Controller.java:264 | alert with sucsses clean
